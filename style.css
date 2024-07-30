@@ -1,0 +1,867 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Bevan", serif;
+    
+}
+
+body{
+    
+    background-image: linear-gradient(rgba(4,9,30,0.0), rgba(4,9,30,0.3)), url(img/fondoinicio.png);
+}
+
+.centrar{
+    text-align: center;
+}
+
+
+.navbarinicio{
+    padding-top: 50px;
+}
+
+
+.cajanegra{
+    width: 100%;
+    height: 50px;
+    background: #C10A0A ;
+    background-image: linear-gradient(to bottom, #292929  , #292929 );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Nav Links*/
+
+.nav-links{
+    text-align: center;
+    background: #C10A0A ;
+    background-image: linear-gradient(to bottom, #C10A0A, rgb(97, 6, 6));
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+   
+}
+
+.nav-links ul li a{
+    list-style: none;
+    display: inline-block;
+    padding: 1em 3em;
+    
+}
+
+.nav-links ul li a{
+    color: #DBDBDB;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+
+
+
+.nav-links ul li a:hover{
+
+    background: linear-gradient(to bottom, #FF0000, rgb(97, 6, 6));
+    transition: 1s;
+    color: white;
+}
+
+/*Nav Links*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTENIDO INICIO*/
+
+
+.contenidoinicio{
+
+    background-position: center;
+    padding-top: 50px; 
+    background-size: cover;
+    
+    
+}
+
+
+.header p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-size: 30px;
+}
+
+.header #img1{
+    margin-top: 20px;
+    width: 600px;
+    height: 350px;
+    margin-bottom: 50px;
+    animation: shakeY;
+    animation: bounce;
+    animation-duration: 1s;
+    
+}
+.contenidoinicio{
+    text-align: center;
+}
+
+.contenidoinicio h2{
+    padding-top: 20px;
+    font-size: 35px;
+    color: white;
+}
+
+.contenidoinicio #img2{
+    padding-top: 30px;
+    width: 650px;
+
+}
+
+.carousel-item{
+    
+    max-height: 100%;
+    padding-top: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 50px;
+  
+}
+
+
+
+
+/*CONTENIDO INICIO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Footer*/
+
+
+.footerinicio footer{
+    margin-top: 2%;
+    padding: 2.5%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, #C10A0A, rgb(97, 6, 6));
+    color: #fff;
+}
+
+.footerinicio footer p{
+    text-align: center;
+    font-size: 80%;
+}
+
+.footerinicio footer a:link, footer a:visited{
+    color: #fff;
+}
+
+.footerinicio footer a:hover{
+    text-decoration: none;
+}
+
+/*Footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bodymenus{
+     background-image: linear-gradient(to bottom, #2E0000, #670101);   
+}
+
+.logomenu{
+    width: 500px;
+    margin-top: 3%;
+}
+
+/*IMG IZQUIERDA*/
+
+
+
+.container{
+    width: 80%;
+    max-width: 800px;
+    margin-top: 6%;
+    padding: 20px;
+    border: 10px solid #510000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, #670101, #C60000);   
+    color: white;
+    
+}
+
+
+.container:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.5);
+    transition: 1s;
+   
+}
+.menu-imagesiz {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    
+}
+.menu-imagesiz img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 10px solid #510000;
+}
+
+.menu-imagesiz img:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5);
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+.menu-itemsiz {
+    flex: 1 1 auto;
+    margin-left: 30px;
+}
+.menu-titleiz {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.menu-itemiz {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.item-detailsiz {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.item-nameiz {
+    margin-right: 30px;
+    padding: 10px; 
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #670101, #C60000);  
+    border: 3px solid white ;
+    font-size: 17px;
+
+}
+
+.item-nameiz:hover{
+    box-shadow:0 0 15px 5px rgba(255, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.item-priceiz {
+    margin-right: 30px;
+    padding: 10px; 
+    border-radius: 10px;
+    color: #EAE7E7;
+    background-image: linear-gradient(to bottom, #670101, #C60000);
+    border: 3px solid white ;
+    font-size: 17px;
+}
+
+
+.item-priceiz:hover{
+    box-shadow:0 0 15px 5px rgba(255, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+
+
+
+/*IMG IZQUIERDA*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*IMG DERECHA*/
+
+
+
+.menu-imagesder {
+    flex: 0 0 auto;
+    margin-right: 20px;
+    flex-direction: row-reverse;
+    
+}
+.menu-imagesder img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    margin-top: 100px;
+    margin-left: 50px;
+    border: 10px solid #510000;
+}
+
+
+.menu-imagesder img:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.5);
+    transition: 1s;
+    transform: scale(1.1);
+}
+
+
+
+.menu-itemsder {
+    flex: 1 1 auto;
+    margin-left: 30px;
+}
+.menu-titleder {
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.menu-itemder {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.item-detailsder {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+.item-nameder {
+    margin-right: 30px;
+    padding: 10px; 
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #670101, #C60000);  
+    border: 3px solid white ;
+    font-size: 17px;
+
+}
+
+.item-nameder:hover{
+    box-shadow:0 0 15px 5px rgba(255, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: 0.5s;
+    }
+
+
+
+.item-priceder {
+    margin-right: 30px;
+    padding: 10px; 
+    border-radius: 10px;
+    color: #EAE7E7;
+    background-image: linear-gradient(to bottom, #670101, #C60000);
+    border: 3px solid white ;
+    font-size: 17px;
+}
+
+
+.item-priceder:hover{
+    box-shadow:0 0 15px 5px rgba(255, 0, 0, 0.5);
+    transform: scale(1.1);
+    transition: 0.5s;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*BEBIDAS*/
+
+
+.titulo-bebidas {
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+    
+}
+
+.titulo-seccion {
+    color: white;
+    margin-bottom: 5%;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.seccion-bebidas-frias{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+    border: 10px solid #510000;
+    background-image: linear-gradient(to bottom, #670101, #C60000);   
+    color: white;
+    padding-bottom: 130px;
+}
+
+.seccion-bebidas-calientes{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+    border: 10px solid #510000;
+    background-image: linear-gradient(to bottom, #670101, #C60000);   
+    color: white;
+}
+
+
+.seccion-bebidas-frias:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.5);
+    transition: 1s;
+
+}
+
+
+
+.seccion-bebidas-calientes:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.5);
+    transition: 1s;
+}
+
+.bebidas-columna {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2%; /* Espacio entre columnas */
+}
+
+.bebida {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.info-bebida {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombre-bebida {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.precio-bebida {
+    margin-bottom: 0;
+    color: white;
+}
+
+.imagen-bebidas {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagen-bebidas img {
+    width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.especificacion-bebida-mate{
+    font-size: 10px;
+    text-align: center;
+    color: #666;
+}
+
+
+
+
+
+
+
+/*BEBIDAS*/
+
+
+
+
+
+
+
+
+
+
+
+/*REGISTRO*/
+
+
+.form-gen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+
+
+.form-container { 
+    background-image: linear-gradient(to bottom, #670101, #C60000);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px; 
+    padding: 30px;
+    position: relative;
+    border-radius: 40px;
+    border: 10px solid #510000;
+}
+
+.form-container:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.5);
+    transition: 1s;
+}
+
+
+.requerimiento-registro{
+    color: white;
+}
+
+.image-container {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+
+.registration-form {
+    margin-top: 120px; 
+}
+
+
+.registration-form label {
+    margin: 10px 0 5px;
+}
+
+.registration-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.registration-form input::placeholder {
+    color: #888;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-btn, .delete-btn {
+    width: 48%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.register-btn {
+   background: linear-gradient(to bottom, #FF0000, rgb(97, 6, 6));
+   color: lightgrey;
+}
+
+.delete-btn {
+   background: linear-gradient(to bottom, #670101, #C60000);
+    color: lightgrey;
+}
+
+.register-btn:hover {
+    background: linear-gradient(to bottom, #670101, #C60000);
+    color: white;
+}
+
+.delete-btn:hover {
+    background: linear-gradient(to bottom, #FF0000, rgb(97, 6, 6));
+    color: white;
+}
+
+
+
+/*REGISTRO*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*CONTACTENOS*/
+
+.header-contacto {
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+    border: 10px solid #510000;
+    background-image: linear-gradient(to bottom, #670101, #C60000);   
+    
+}
+
+
+.main-content {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.contacto-section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0,0.1);
+    border: 10px solid #510000;
+    background-image: linear-gradient(to bottom, #670101, #C60000);   
+    color: white;
+    border-radius: 30px;
+}
+
+
+.contacto-section:hover{
+    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.5);
+    transition: 1s;
+
+}
+
+
+.section-title {
+    margin-top: 0;
+    font-size: 24px;
+    color: white;
+}
+
+.form-label {
+   
+    margin-top: 10px;
+}
+
+.form-input, .form-textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;    
+}
+
+.form-textarea {
+    min-height: 100px;
+}
+
+.form-submit-btn {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(to bottom, #FF0000, rgb(97, 6, 6));
+    color: white;
+    font-size: 16px;
+    
+}
+
+.form-submit-btn:hover {
+    background: linear-gradient(to bottom, #670101, #C60000);
+    color: white;
+}
+
+.contacto-info-item {
+    margin: 5px 0;
+}
+
+.map-iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+}
+
+
+.iconsocial{
+    height: 50px;
+    margin: 10px auto;
+    margin-left: 15%
+   
+}
+
+
+
+
+
+.footer-contacto {
+    color: gray;
+}
+
+.footer-contacto:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+/*CONTACTENOS*/
+
+
+
+
+
+
+
+
